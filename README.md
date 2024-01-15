@@ -92,14 +92,14 @@ cat >> tf_2.txt -> Ctrl+C
 
  9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2” - cat >> tf_3.txt -> the second 2 -> Ctrl+C
  10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2” - cat >> tf_3.txt -> the sec 2 -> Ctrl+C
- 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” - cat >> tf_2.txt -> the sec 3 -> Ctrl+C
- 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2” - 	cat >> tf_3.txt -> the SeCoNd 2 ->Ctrl+C
- 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2” - cat >> tf_2.txt -> the seConD 2 -> Ctrl+C
- 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк. - Touch tf_4.txt -> vim tf_4.txt -> I -> esc -> :wq
- 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк. - Touch tF_5.txt -> vim tF_5.txt -> I -> esc -> :wq
- 16. Вывести список всех файлов в папке. - ls -la
- 17. Выйти из папки inner_dir_1 - cd ..
- 18. Вывести содержимое файла tf_3.txt в терминал. - cat inner_dir_1/tf_3.txt
+ 11.  Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” - cat >> tf_2.txt -> the sec 3 -> Ctrl+C
+ 12.   Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2” - 	cat >> tf_3.txt -> the SeCoNd 2 ->Ctrl+C
+ 13.    Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2” - cat >> tf_2.txt -> the seConD 2 -> Ctrl+C
+ 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк. - Touch tf_4.txt -> vim tf_4.txt -> I -> esc -> :wq
+ 15.  Сделать текстовый файл tF_5.txt в котором будет 13 строк. - Touch tF_5.txt -> vim tF_5.txt -> I -> esc -> :wq
+ 16.   Вывести список всех файлов в папке. - ls -la
+ 17.    Выйти из папки inner_dir_1 - cd ..
+ 18. Вывести содержимое файла tf_3.txt в терминал. - cat inner_dir_1/tf_3.txt
  19. Найти путь к файлу tf_4.txt -realpath $(find . -name tf_4.txt)
  20. Отчистить файл tf_4.txt от содержимого без удаления самого файла. - >inner_dir_1/tf_4.txt
  21. Найти путь к файлам у которых есть  “tf” в названии.  - realpath $(find . -name '*tf*')  
