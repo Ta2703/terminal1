@@ -87,10 +87,7 @@ Termial. HW_2
 cat >> tf_2.txt -> Ctrl+C
 
 7.Зайти в папку inner_dir_1 - cd inner_dir_1
-
 8.Через cat сделать текстовый файл tf_3.txt c любыми строками cat>>tf_3.txt  -> Ctrl+C
-
- 
  9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2” - cat >> tf_3.txt -> the second 2 -> Ctrl+C
  10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2” - cat >> tf_3.txt -> the sec 2 -> Ctrl+C
  11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” - cat >> tf_2.txt -> the sec 3 -> Ctrl+C
